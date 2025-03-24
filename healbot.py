@@ -2,9 +2,9 @@
 # coding: utf-8
 
 # In[ ]:
-!pip install faiss-cpu langchain langchain-community transformers sentence-transformers
+pip install faiss-cpu langchain langchain-community transformers sentence-transformers
 
-!pip install pypdf
+pip install pypdf
 
 # In[3]:
 
@@ -61,7 +61,7 @@ retriever = vector_store.as_retriever(search_kwargs={"k":1})
 
 # In[9]:
 
-!pip install groq
+pip install groq
 from groq import Groq
 groq_client = Groq(api_key="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")
 
